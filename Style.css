@@ -76,3 +76,12 @@ body{
     font-size: 13px;
     max-width: 150px;
 }
+
+.Row.Wrap{
+	max-height: 385px;
+	
+}
+.Watched{
+    opacity: 0.1;
+}
+
