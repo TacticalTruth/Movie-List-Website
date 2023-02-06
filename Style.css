@@ -13,10 +13,10 @@ body{
     height: 5px;
     width: 75%;
     box-sizing: border-box;
-    margin-top: 31px;
+    margin-top: 26px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 70px;
+    margin-bottom: 14px;
 }
 
 .Page.Title{
@@ -50,11 +50,10 @@ body{
 }
 
 .Movie.Row{
-    margin-top: -63px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 10px;
     align-content: center;
+    padding-bottom: 25px;
 }
 
 .Movie.Poster img{
