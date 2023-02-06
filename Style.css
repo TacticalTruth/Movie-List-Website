@@ -55,16 +55,16 @@ body{
     align-content: center;
     padding-bottom: 25px;
 }
-
+.Movie.Listing{
+    box-sizing: border-box;
+    display: inline-block;
+	max-width: 250px;
+	max-height: 150px;
+}
 .Movie.Poster img{
     width: 150px;
     -webkit-box-shadow: 0px 0 15px #000000;
     box-shadow: 0px 0 10px #000000;
-}
-
-.Movie.Listing{
-    box-sizing: border-box;
-    display: inline-block;
 }
 
 .Movie.Listing h3{
@@ -73,5 +73,6 @@ body{
 
 .Details span{
     font-weight: bold;
-	font-size: 13px;
+    font-size: 13px;
+    max-width: 150px;
 }
