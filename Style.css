@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
+	background-color: #393939;
+	color: white;
+	
+}
+
+.sep{
+    background-color: white;
+    height: 5px;
+    width: 75%;
+    box-sizing: border-box;
+    margin-top: 31px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+}
+
+.Page.Title{
+	text-align: center;
+}
+
+.Page.Title h1{
+    font-size: 23px;
+    margin-bottom: -26px;
+}
+.Page.Title h2{
+    font-size: 37px;
+    margin-bottom: -10px;
+}
+.Page.Title h3{
+	font-style: italic;
+}
+
+
+.wrapper{
+	align-content: center;
+	text-align: center;
+}
+
+.nb-list{
+    list-style: none;
+    padding-right: 38px;
+    text-align: left;
+	font-style: italic;
+	font-size: 10px;
+}
+
+.Movie.Row{
+    margin-top: -63px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.Movie.Poster img{
+    width: 150px;
+    -webkit-box-shadow: 0px 0 15px #000000;
+    box-shadow: 0px 0 10px #000000;
+}
+
+.Movie.Listing{
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.Movie.Listing h3{
+	font-size: 12px;
+}
+
+.Details span{
+    font-weight: bold;
+	font-size: 13px;
+}
