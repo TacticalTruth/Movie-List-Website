@@ -10,6 +10,8 @@ body{
     background-image: url(background/background10p.png), -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.66) 100%);
     background-image: url(background/background10p.png), -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.66) 100%);
     background-image: url(background/background10p.png), linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.66) 100%);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .sep{
@@ -86,5 +88,5 @@ body{
 	
 }
 .Watched{
-    opacity: 0.1;
+    opacity: 0.33;
 }
