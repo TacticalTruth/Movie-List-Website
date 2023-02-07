@@ -61,8 +61,10 @@ body{
 .Movie.Listing{
     box-sizing: border-box;
     display: inline-block;
-	max-width: 250px;
-	max-height: 150px;
+    max-width: 250px;
+    max-height: 150px;
+    min-width: 250px;
+    min-height: 0px;
 }
 .Movie.Poster img{
     width: 150px;
