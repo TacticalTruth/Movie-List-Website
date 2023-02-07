@@ -123,6 +123,7 @@ a{
 	
 }
 
+/*
 .Watched{
 	opacity: 0.25;
 }
@@ -130,6 +131,7 @@ a{
 .Watched:hover{
 	opacity: 1;
 }
+*/
 
 .Check:after{
     content: '';
@@ -139,8 +141,9 @@ a{
     width: 100px;
     background: url("posters/Watched.svg.png");
     background-size: 100%;
-    top: -300px;
+    top: -275px;
     right: -75px;
+	opacity: 0.5;
 
 }
 
