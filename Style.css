@@ -67,6 +67,12 @@ a{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.Row.Half{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 .Movie.Listing{
     box-sizing: border-box;
     display: inline-block;
@@ -84,6 +90,7 @@ a{
 .Movie.Listing h3{
 	font-size: 12px;
 }
+
 
 .Details span{
     font-weight: bold;
