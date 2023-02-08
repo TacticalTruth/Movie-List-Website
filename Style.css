@@ -1,7 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
+header{
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+html{
     font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
     background-color: #222222;
     color: white;
@@ -18,7 +23,6 @@ a{
     height: 5px;
     width: 75%;
     box-sizing: border-box;
-    margin-top: 26px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 14px;
@@ -35,6 +39,8 @@ a{
 .Page.Title h2{
     font-size: 37px;
     margin-bottom: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .Page.Title h3{
 	font-style: italic;
@@ -156,4 +162,71 @@ footer{
     padding-left: 0px;
     padding-bottom: 5px;
     margin: 50px 0px;
+}
+
+.nav{
+}
+
+.nav.item{
+	display: inline-block;
+	padding: 5px 45px;
+	
+}
+.nav.wrapper{
+    margin-top: -14px;	
+}
+
+.Crew{
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 250px;
+    max-height: 150px;
+    min-width: 250px;
+    min-height: 0px;
+}
+.Crew.Avatar img{
+    /* [disabled]width: 150px; */
+    -webkit-box-shadow: 0px 0 10px #000000;
+    box-shadow: 0px 0 10px #000000;
+    max-width: 150px;
+    max-height: 225px;
+    min-width: 150px;
+    min-height: 225px;
+    transition: transform .3s;
+}
+
+.Crew.Avatar img:hover{
+	position: relative;
+	transform: scale(3);
+	opacity: 1.0;
+	z-index: 10;
+	
+}
+
+.Review.Row.Wrap{
+	position: relative;
+    display: block;	
+}
+
+.Review.Row{
+    display: block;	
+}
+
+.Review.Listing{
+    display: inline-block;
+}
+
+.Review.Listing h3{
+    text-align: left;
+}
+
+.Review.Details{
+    float: right;
+	display: block;
+}
+
+.Review.Container{
+    position: relative;
+    display: inline-block;
+	padding: 0px 150px;
 }
