@@ -215,6 +215,12 @@ footer{
 
 .Review.Listing{
     display: inline-block;
+    min-width: 500px;
+    max-width: 500px;
+    text-align: left;
+    max-height: 302px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .Review.Listing h3{
@@ -222,12 +228,34 @@ footer{
 }
 
 .Review.Details{
-    float: right;
-	display: block;
+    position: relative;
+    display: block;
+    bottom: 188px;
+    left: 109px;
+    margin-top: -19px;
+}
+.Review.Details li{
+    padding-bottom: 10px;
+	
 }
 
 .Review.Container{
     position: relative;
     display: inline-block;
 	padding: 0px 150px;
+}
+
+.Review.Poster img{
+    /* [disabled]width: 150px; */
+    -webkit-box-shadow: 0px 0 10px #000000;
+    box-shadow: 0px 0 10px #000000;
+    max-width: 150px;
+    max-height: 225px;
+    min-width: 150px;
+    min-height: 225px;
+ }
+
+.hide{
+    display: none;
+	
 }
