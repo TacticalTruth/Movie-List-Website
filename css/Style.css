@@ -44,9 +44,8 @@ a{
 
 .Page.Title{
     text-align: center;
-    min-width: 1332px;
-    max-width: 1332px;
     margin: auto;
+	align-content: center;
 }
 
 .Page.Title h1{
@@ -182,7 +181,15 @@ footer{
 }
 
 .review.footer{
-    margin-top: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: #131313;
+    color: white;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    margin: 50px 0px;
 }
 
 .nav{
@@ -226,7 +233,7 @@ footer{
 
 .Review.Row.Wrap{
     position: relative;
-    display: block;
+    display: inline-block;
     margin-left: 135px;
 }
 
