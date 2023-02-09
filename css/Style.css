@@ -13,6 +13,7 @@ html{
     background-image: url("../background/background10p.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
+	scroll-behavior: smooth;
 }
 
 a{
@@ -28,6 +29,18 @@ a{
     margin-left: auto;
     margin-bottom: 14px;
 }
+
+.Top{
+    position: sticky;
+    place-self: end;
+    bottom: -22px;
+    margin-top: 1800px;
+    padding-bottom: 97px;
+    right: auto;
+    left: 1639px;
+	scroll-behavior: smooth;    
+}
+
 
 .Page.Title{
     text-align: center;
