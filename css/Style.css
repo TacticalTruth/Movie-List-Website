@@ -30,7 +30,10 @@ a{
 }
 
 .Page.Title{
-	text-align: center;
+    text-align: center;
+    min-width: 1332px;
+    max-width: 1332px;
+    margin: auto;
 }
 
 .Page.Title h1{
@@ -209,8 +212,9 @@ footer{
 }
 
 .Review.Row.Wrap{
-	position: relative;
-    display: block;	
+    position: relative;
+    display: block;
+    margin-left: 135px;
 }
 
 .Review.Row{
