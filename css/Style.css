@@ -112,10 +112,11 @@ a{
     max-height: 225px;
     min-width: 150px;
     min-height: 225px;
-    transition: transform .3s;
+    transition: transform .25s;
 }
 
 .Movie.Poster img:hover{
+	transition-delay: 0.5s;
 	position: relative;
 	transform: scale(3);
 	opacity: 1.0;
@@ -143,6 +144,7 @@ a{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 385px;
+	border-right: 1px white solid;
 }
 
 /*
@@ -285,5 +287,16 @@ footer{
 
 .hide{
     display: none;
+	
+}
+
+.Crew.Details{
+    text-align: left;
+    margin-left: -12px;
+	
+}
+.Crew.Details li{
+    min-width: 220px;
+
 	
 }
