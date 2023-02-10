@@ -144,7 +144,6 @@ a{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 385px;
-	border-right: 1px white solid;
 }
 
 /*
@@ -221,16 +220,7 @@ footer{
     max-width: 150px;
     max-height: 225px;
     min-width: 150px;
-    min-height: 225px;
-    transition: transform .3s;
-}
-
-.Crew.Avatar img:hover{
-	position: relative;
-	transform: scale(3);
-	opacity: 1.0;
-	z-index: 10;
-	
+    min-height: 225px;	
 }
 
 .Review.Row.Wrap{
@@ -297,6 +287,47 @@ footer{
 }
 .Crew.Details li{
     min-width: 220px;
+}
 
-	
+.Dolt.Avatar{
+    background-image: url("../avatars/Dolt.png");
+    height: 225px;
+    width: 150px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: 49% 0%;
+    background-repeat: no-repeat;
+	 -webkit-box-shadow: 0px 0 10px #000000;
+    box-shadow: 0px 0 20px #000000;
+}
+.Demdy.Avatar{
+    background-image: url("../avatars/Demdy.png");
+    height: 225px;
+    width: 150px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 50% 53%;
+    background-repeat: no-repeat;
+    background-size: 296.3px 423.3px;
+	 -webkit-box-shadow: 0px 0 10px #000000;
+    box-shadow: 0px 0 20px #000000;
+}
+.Kamen.Avatar{
+    background-image: url("../avatars/Kamen.png");
+    height: 225px;
+    width: 150px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: 49% 0%;
+    background-repeat: no-repeat;
+	 -webkit-box-shadow: 0px 0 10px #000000;
+    box-shadow: 0px 0 20px #000000;
 }
