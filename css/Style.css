@@ -318,7 +318,7 @@ footer{
     box-shadow: 0px 0 20px #000000;
 }
 .Kamen.Avatar{
-    background-image: url("../avatars/Kamen.png");
+    background-image: url("../avatars/KamenAlt.png");
     height: 225px;
     width: 150px;
     display: inline-block;
@@ -331,3 +331,4 @@ footer{
 	 -webkit-box-shadow: 0px 0 10px #000000;
     box-shadow: 0px 0 20px #000000;
 }
+
