@@ -1,0 +1,117 @@
+html{
+    font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
+    background-color: #222222;
+    color: white;
+    background-image: url("../img/background/background10p.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	scroll-behavior: smooth;
+}
+
+.container{
+    width: 1250px;
+    background-color: rgba(255, 255, 255, 0.13);
+    margin: 0 auto;
+}
+
+header{
+    background-color: tomato;
+    height: 325px;
+}
+
+footer{
+    background-color: cadetblue;
+    height: 94px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.TheCrewWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.TheCrewWrapper p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.CrewMember{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 33%;
+    overflow: hidden;
+}
+
+.Name{
+ padding-left: 53px;
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: 5px;
+}
+
+.CrewAvatar{
+    margin: 0 auto;
+    height: 250px;
+    width: 150px;
+    float: left;
+}
+
+.Dolt{
+    background-image: url(../img/avatars/Dolt.png);
+    background-position: center;
+    height: 250px;
+    width: 150px;
+}
+
+.Demdy{
+    background-image: url(../img/avatars/Demdy.png);
+    background-position: center;
+    height: 250px;
+    width: 150px;
+}
+
+.Green{
+    background-image: url(../img/avatars/Placeholders/Green.jpg);
+    background-position: center;
+    background-size: 150px 250px;
+    height: 250px;
+    width: 150px;
+}
+
+.Kamen{
+    background-image: url(../img/avatars/KamenAlt.png);
+    background-position: center;
+    background-size: 297px 252px;
+    height: 250px;
+    width: 150px;
+}
+
+.TalentLess{
+    background-image: url(../img/avatars/TalentLss.png);
+    background-position: center;
+    background-size: 150px 250px;
+    height: 250px;
+    width: 150px;
+}
+
+.Truth{
+    background-image: url(../img/avatars/Placeholders/Truth.jpg);
+    background-position: center;
+    background-size: 150px 250px;
+    height: 250px;
+    width: 150px;
+}
+
+.CrewDetails{
+    margin-left: 170px;
+    vertical-align: baseline;
+    /* background-color: blanchedalmond; */
+}
+
+.CrewDetails p span{
+    font-size: 16px;
+    font-weight: bold;
+}
