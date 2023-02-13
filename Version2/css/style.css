@@ -9,27 +9,84 @@ html{
 }
 
 .container{
-    width: 1250px;
-    background-color: rgba(255, 255, 255, 0.13);
+    max-width: 1250px;
     margin: 0 auto;
 }
 
+a{
+    color: white;
+}
+
+.ThisPage{
+    text-decoration: none;
+
+}
+
 header{
-    background-color: tomato;
-    height: 325px;
+    text-align: center;
+    min-height: 325px;
+}
+
+.Page-Title{
+    padding-top: 20px;
+}
+
+.MovieNight{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.PageTitle{
+    font-size: 37px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.SubTitle{
+    font-size: 17px;
+    font-style: italic;
+    padding: 10px 0px;
+}
+
+.Separator{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 ;
+}
+
+.Footercontainer{
+    background-color: #131313;
+    align-content: center;
+    width: 100vw;
+    min-height: 125px;
 }
 
 footer{
-    background-color: cadetblue;
-    height: 94px;
-    margin-top: 50px;
-    margin-bottom: 25px;
+    text-align: center;
+    height: 125px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer p{
+    margin-bottom: 5px;
 }
 
 .TheCrewWrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 150px;
 }
 
 .TheCrewWrapper p{
@@ -46,10 +103,10 @@ footer{
 }
 
 .Name{
- padding-left: 53px;
- font-size: 20px;
- font-weight: bold;
- margin-bottom: 5px;
+    padding-left: 53px;
+     font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .CrewAvatar{
@@ -57,6 +114,7 @@ footer{
     height: 250px;
     width: 150px;
     float: left;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.30);
 }
 
 .Dolt{
@@ -114,4 +172,29 @@ footer{
 .CrewDetails p span{
     font-size: 16px;
     font-weight: bold;
+}
+
+/* width 1000px */
+
+@media (max-width: 1000px){
+    .CrewMember{
+        width: 50%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 698px) {
+    .container{
+        width: fit-content;
+    }
+
+    .TheCrewWrapper{
+        align-content: center;
+    }
+
+    .CrewMember{
+        
+        width: 100%;
+    }
+    
 }
