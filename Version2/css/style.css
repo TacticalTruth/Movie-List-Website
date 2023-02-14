@@ -67,6 +67,20 @@ nav{
 }
 /* Header Styling End */
 
+.WIP{
+    position: absolute;
+    background-image: url(../img/WIP.png);
+    background-size: 1250px 164px;
+    width: 1250px;
+    height: 164px;
+    z-index: 10000;
+    top: 452px;
+    opacity: .05;
+    rotate: 22.5deg;
+    scale: 1.5;
+    pointer-events: none;
+}
+
 /* Watch List Styling */
 .MovieWrapper{
     margin-left: 20px;
