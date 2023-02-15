@@ -346,9 +346,9 @@ footer p{
     .MovieListing{
         position: relative;
         width: 100%;
-        margin-left: 0px;
+        margin-left: 14px;
         box-sizing: border-box;
-        padding-left: 50px;
+        padding-left: 0px;
         padding-bottom: 30px;
     }
 
