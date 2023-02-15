@@ -188,6 +188,12 @@ nav{
 .Buffer{
     margin-top: 25px;
 }
+
+.Padding{
+    width: 25%;
+    /* border-bottom: solid white 1px;
+    margin-bottom: 25px; */
+}
 /* End Theme Sytling */
 
 
