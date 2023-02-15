@@ -282,6 +282,20 @@ footer p{
         display: block;
         width: 100%;
     }
+
+    .WIP{
+        position: fixed;
+        background-image: url(../img/WIP.png);
+        background-size: 171px 32px;
+        width: 1959px;
+        height: 1698px;
+        left:-447px;
+        top: -341px;
+        opacity: .05;
+        rotate: 22.5deg;
+        scale: 0.75;
+        pointer-events: none;
+    }
 }
 
 /* Mobile */
@@ -297,6 +311,7 @@ footer p{
     .MovieListing{
         position: relative;
         width: 100%;
+        margin-left: 136px;
         box-sizing: border-box;
         padding-bottom: 30px;
     
@@ -323,20 +338,20 @@ footer p{
     .Buffer{
         display: none;
     }
+}
 
-    .WIP{
-        position: fixed;
-        background-image: url(../img/WIP.png);
-        background-size: 171px 32px;
-        width: 1959px;
-        height: 1282px;
-        left:-447px;
-        top: -88px;
-        opacity: .1;
-        rotate: 22.5deg;
-        scale: 0.75;
-        pointer-events: none;
+/* Moderate */
+@media (max-width: 550px) {
+    
+    .MovieListing{
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+        box-sizing: border-box;
+        padding-left: 50px;
+        padding-bottom: 30px;
     }
+
 }
 
 /* Very Small */
