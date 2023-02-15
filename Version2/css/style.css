@@ -96,7 +96,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .MovieListing{
@@ -104,15 +104,25 @@ nav{
     width: 25%;
     box-sizing: border-box;
     padding: 10px;
+    margin-bottom: 50px;
 
 }
+
+.InvisMovieListing{
+    position: relative;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
 
 .MovieTitle{
     text-align: center;
     max-width: 150px;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
 }
 
 .Watched{
@@ -132,7 +142,7 @@ nav{
 .MoviePoster img:hover{
     transition-delay: 0.5s;
     position: relative;
-    transform: scale(3);
+    transform: scale(3.25);
     opacity: 1;
     z-index: 10;
 }
@@ -159,8 +169,27 @@ nav{
     font-size: 14px;
     font-weight: bold;
 }
-
 /* Watch List Ending */
+
+/* Theme Styling */
+.Theme{
+    width: 100%;
+    border-bottom: solid rgba(255, 255, 255, 0.199) 1px;
+    margin-bottom: 25px;
+
+}
+
+.ThemeName{
+    margin-left: 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.Buffer{
+    margin-top: 25px;
+}
+/* End Theme Sytling */
+
 
 /* Footer Styling */
 .Footercontainer{
@@ -202,6 +231,23 @@ footer p{
         padding: 10px;
     
     }
+    
+    .InvisMovieListing{
+        position: relative;
+        width: 45%;
+        box-sizing: border-box;
+        padding: 10px;
+    
+    }
+
+    .Theme{
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .ThemeName{
+        margin-right: auto;
+    }
    
 }
 
@@ -230,6 +276,20 @@ footer p{
         opacity: 1;
         z-index: 1;
     }
+
+    .Theme{
+        display: none;
+    
+    }
+    
+    .ThemeName{
+        display: none;
+
+    }
+    
+    .Buffer{
+        display: none;
+    }
 }
 
 /* Very Small */
@@ -245,6 +305,10 @@ footer p{
         box-sizing: border-box;
         padding-left: 50px;
         padding-bottom: 30px;
+    }
+
+    .InvisMovieListing{
+        display: none;
     }
 
     .MovieDetails p{

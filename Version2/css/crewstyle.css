@@ -135,9 +135,13 @@ nav{
     margin-bottom: 10px;
 }
 
-.CrewDetails p span{
+.DTitle{
     font-size: 16px;
     font-weight: bold;
+}
+
+.DContent{
+    font-size: 10px;
 }
 
 /* Crew Avatar Div Style */
@@ -157,9 +161,9 @@ nav{
 }
 
 .Green{
-    background-color: green;
-    background-position: center;
-    background-size: 150px 250px;
+    background-image: url(../img/avatars/Green.jpg);
+    background-position: -46px -54px;
+    background-size: 282px 306px;
     height: 250px;
     width: 150px;
 }
