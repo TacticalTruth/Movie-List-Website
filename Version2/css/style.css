@@ -1,5 +1,6 @@
 /* Basic Styling */
 html{
+    zoom: 110%;
     font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
     background-color: #222222;
     color: white;
@@ -232,6 +233,13 @@ footer p{
     margin-bottom: 5px;
 }
 /* Footer Styling End */
+
+/* Width 1200px */
+@media (max-width: 1200px){
+    html{
+        zoom: normal;
+    }
+}
 
 /* width 1000px */
 @media (max-width: 1000px){
