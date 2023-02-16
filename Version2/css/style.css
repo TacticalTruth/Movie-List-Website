@@ -109,6 +109,10 @@ nav{
 
 }
 
+.GreenBG{
+    background-color: rgba(15, 172, 15, 0.03);
+}
+
 .InvisMovieListing{
     position: relative;
     width: 25%;
@@ -257,9 +261,12 @@ footer p{
         width: 45%;
         box-sizing: border-box;
         padding: 10px;
-    
     }
-    
+
+    .GreenBG{
+        background-color: rgba(0, 0, 0, 0);
+    }
+
     .InvisMovieListing{
         position: relative;
         width: 45%;
