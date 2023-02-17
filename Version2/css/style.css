@@ -94,10 +94,13 @@ nav{
 .MovieWrapper{
     margin-left: 20px;
     min-height: 300px;
+    padding-bottom: 150px;
+}
+
+.RowWrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 150px;
 }
 
 .MovieListing{
@@ -177,6 +180,16 @@ nav{
 /* Watch List Ending */
 
 /* Theme Styling */
+.ThemeSeparator{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: solid rgba(255, 255, 255, 0.199) 1px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
 .Theme{
     width: 100%;
     border-bottom: solid rgba(255, 255, 255, 0.199) 1px;
