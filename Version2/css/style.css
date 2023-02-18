@@ -148,12 +148,26 @@ nav{
     z-index: 1;
 }
 
+@keyframes Shadow{
+    0%{
+        box-shadow: 0 0 10px black;
+    }
+    100%{
+        box-shadow: 0 0 30px black;
+    }
+}
+
 .MoviePoster img:hover{
+    box-sizing: content-box;
     transition-delay: 0.5s;
-    position: relative;
+    position: absolute;
     transform: scale(3.25);
     opacity: 1;
     z-index: 10;
+    animation: Shadow;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .Glass{
@@ -161,7 +175,8 @@ nav{
     position: absolute;
     height: 1px;
     width: 1px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(7px);
     z-index: 9;
     pointer-events: none;
 }
@@ -169,7 +184,7 @@ nav{
 .MoviePoster:hover ~ #glass{
     display: block;
     animation: BlurBG;
-    animation-duration: 0.25s;
+    animation-duration: 2.75s;
     top: -200%;
     left: -500%;
     height: 10000px;
