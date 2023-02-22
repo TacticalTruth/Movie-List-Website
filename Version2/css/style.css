@@ -11,7 +11,29 @@ html{
 }
 
 body{
-    overflow-x: hidden;
+    height: 100%;
+}
+
+#BackToTop{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: transparent;
+    font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    z-index: 9;
+    text-decoration: underline;
+}
+
+i{
+    padding-left: 3px;
+    color: white;
+    text-decoration: underline;
 }
 
 .container{
@@ -280,21 +302,20 @@ nav{
 .Footercontainer{
     background-color: #131313;
     align-content: center;
-    width: 100vw;
+    max-width: 100%;
     min-height: 125px;
 }
 
 footer{
-    text-align: center;
     height: 125px;
     box-sizing: border-box;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
 }
 
 footer p{
-    margin-bottom: 5px;
+    text-align: center;
 }
+
 /* Footer Styling End */
 
 /* Width 1200px */
@@ -307,6 +328,10 @@ footer p{
 /* width 1000px */
 @media (max-width: 1000px){
    
+    #BackToTop{
+        right: 15px;
+    }
+
     nav{
         justify-content: space-around;
     }
