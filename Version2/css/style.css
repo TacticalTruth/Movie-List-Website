@@ -22,7 +22,7 @@ body{
     border: transparent;
     font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     background: none;
     cursor: pointer;
@@ -320,6 +320,14 @@ footer p{
 
 /* Width 1200px */
 @media (max-width: 1200px){
+
+    #BackToTop{
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0.75);
+        border-radius: 5px;
+        height: 30px;
+    }
+
     html{
         zoom: normal;
     }
@@ -330,6 +338,8 @@ footer p{
    
     #BackToTop{
         right: 15px;
+        font-size: 20px;
+        background: none;
     }
 
     nav{
