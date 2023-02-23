@@ -191,7 +191,7 @@ nav{
     }
 }
 
-.MoviePoster img:hover{
+.MoviePoster img:active{
     box-sizing: content-box;
     transition-delay: 0.1s;
     position: absolute;
@@ -215,7 +215,7 @@ nav{
     pointer-events: none;
 }
 
-.MoviePoster:hover ~ #glass{
+.MoviePoster:active ~ #glass{
     display: block;
     animation: BlurBG;
     animation-duration: 0.5s;
