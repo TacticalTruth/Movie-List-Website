@@ -31,22 +31,6 @@ body{
     text-decoration: underline;
 }
 
-#GoToBot{
-    display: none;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    border: transparent;
-    font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
-    font-weight: bold;
-    font-size: 15px;
-    color: white;
-    background: none;
-    cursor: pointer;
-    z-index: 9;
-    text-decoration: underline;
-}
-
 i{
     padding-left: 3px;
     color: white;
@@ -209,14 +193,14 @@ nav{
 
 .MoviePoster img:hover{
     box-sizing: content-box;
-    transition-delay: 0.5s;
+    transition-delay: 0.1s;
     position: absolute;
     transform: scale(3.25);
     opacity: 1;
     z-index: 10;
     animation: Shadow;
-    animation-delay: 1s;
-    animation-duration: 1s;
+    /* animation-delay: 1s;
+    animation-duration: 1s; */
     animation-fill-mode: forwards;
 }
 
@@ -234,7 +218,7 @@ nav{
 .MoviePoster:hover ~ #glass{
     display: block;
     animation: BlurBG;
-    animation-duration: 2.75s;
+    animation-duration: 0.5s;
     top: -1500%;
     left: -1000%;
     height: 10000px;

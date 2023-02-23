@@ -33,7 +33,7 @@
         <div class="MovieWrapper">
             <!-- Nolan Movies -->
                 <!-- Theme: Nolan Movies -->
-                <div class="Theme" onclick="showMovies()">
+                <div class="Theme" onclick="showMovies('Nolan')">
                     <p class="ThemeName">Christopher Nolan</p>
                 </div>
                 <div class="RowWrap" id="Nolan">
@@ -552,7 +552,7 @@
                 </div>
             <!-- Tom Cruise Movies -->
                 <!-- Theme: Cruise Movies -->
-                <div class="Theme Buffer" onclick="showMovies2()">
+                <div class="Theme Buffer" onclick="showMovies('Tom')">
                     <p class="ThemeName">Tom Cruise</p>
                 </div>
                 <div class="RowWrap" id="Tom">
@@ -743,7 +743,7 @@
                 </div>
             <!-- Denzel & Fuqua Movies -->
                 <!-- Theme: Denzel & Fuqua -->
-                <div class="ThemeWrap" onclick="showMovies3()">
+                <div class="ThemeWrap" onclick="showMovies('DWash')">
                     <div class="Theme Buffer DWAF" style="width: 50%">
                         <p class="ThemeName">Denzel Washington</p>
                     </div>
@@ -947,7 +947,7 @@
                 </div>
             <!-- Iconic Sci-Fi Comedy Movies -->
                 <!-- Theme: Sci-fi Comedy -->
-                <div class="Theme Buffer" onclick="showMovies4()">
+                <div class="Theme Buffer" onclick="showMovies('SciCom')">
                     <p class="ThemeName">Sci-fi Comedy</p>
                 </div>
                 <div class="RowWrap" id="SciCom">
@@ -1137,7 +1137,7 @@
                         </div>
                 </div>
             <!-- Iconic Sci-fi and James Cameron Movies -->
-                <div class="ThemeWrap" onclick="showMovies5()">
+                <div class="ThemeWrap" onclick="showMovies('SciFi')">
                     <!-- Theme: Iconic Sci-fi and James Cameron -->
                     <div class="Theme Buffer DWAF" style="width: 25%">
                         <p class="ThemeName">Iconic Sci-fi</p>
@@ -1339,7 +1339,7 @@
                             </div>
                 </div>
             <!-- Old Western and Modern Western Movies -->
-            <div class="ThemeWrap" onclick="showMovies6()">
+            <div class="ThemeWrap" onclick="showMovies('Western')">
                 <!-- Theme: Old Western and Modern Western -->
                 <div class="Theme Buffer DWAF" style="width: 50%">
                     <p class="ThemeName">Old Western</p>
@@ -1541,7 +1541,7 @@
                             </div>
                 </div>
             <!-- War Movies -->
-                <div class="ThemeWrap" onclick="showMovies7()">
+                <div class="ThemeWrap" onclick="showMovies('War')">
                     <!-- Theme: War -->
                     <div class="Theme Buffer DWAF" style="width: 25%">
                         <p class="ThemeName">Pro War</p>
@@ -1750,7 +1750,7 @@
                 </div>
             <!-- Innocence and Violence Movies -->
                 <!-- Innocence and Violence -->
-                    <div class="ThemeWrap" onclick="showMovies8()">
+                    <div class="ThemeWrap" onclick="showMovies('IV')">
                         <div class="Theme Buffer DWAF" style="width: 50%">
                             <p class="ThemeName">Innocence &amp; Violence</p>
                         </div>
@@ -1951,7 +1951,7 @@
                                 </div>
                 </div>
             <!-- Daniel Craig's James Bond Movies -->
-                <div class="Theme Buffer" onclick="showMovies9()">
+                <div class="Theme Buffer" onclick="showMovies('JB')">
                     <p class="ThemeName">Daniel Craig's James Bond</p>
                 </div>
                 <div class="RowWrap" id="JB">
@@ -2142,7 +2142,7 @@
                 </div>
             <!-- Sam Raimi Spider-Man Movies -->
                 <!-- Theme: Sam Raimi's Spider-Man -->
-                    <div class="ThemeWrap" onclick="showMovies10()">
+                    <div class="ThemeWrap" onclick="showMovies('Spider')">
                         <div class="Theme Buffer DWAF" style="width: 75%;">
                             <p class="ThemeName">Sam Raimi Spider-Man</p>
                         </div>
@@ -2295,7 +2295,7 @@
                 </div>
             <!-- Comedy-Drama Movies -->
                 <!-- Theme: Sentimental -->
-                    <div class="ThemeWrap" onclick="showMovies11()">
+                    <div class="ThemeWrap" onclick="showMovies('HeartWarm')">
                         <div class="Theme Buffer">
                             <p class="ThemeName">Comedy-Drama / Heartwarming</p>
                         </div>
@@ -2721,7 +2721,7 @@
                 </div>
             <!-- Love and Time Movies -->
             <!-- Theme: Love and Time -->
-                <div class="ThemeWrap" onclick="showMovies12()">
+                <div class="ThemeWrap" onclick="showMovies('Love&Time')">
                     <div class="Theme Buffer DWAF">
                         <p class="ThemeName">Love and Time</p>
                     </div>
@@ -2964,7 +2964,7 @@
                 </div>
             <!-- Unsorted Movies -->
                 <!-- Theme: Currently Unsorted -->
-                    <div class="ThemeWrap" onclick="showMovies13()">
+                    <div class="ThemeWrap" onclick="showMovies('Unsort')">
                         <div class="Theme Buffer DWAF">
                             <p class="ThemeName">Currently Unsorted</p>
                         </div>
@@ -4792,8 +4792,6 @@
                 </div>
 
                 <button onclick="topFunction()" id="BackToTop" title="To Top"><p class="DWAF">Back to top</p><span class="DWAFmob"><i class="fa-solid fa-arrow-up"></i></span></button>
-
-                <button onclick="botFunction()" id="GoToBot" title="To Bottom"><p class="DWAF">Go to Bottom</p><span class="DWAFmob"><i class="fa-solid fa-arrow-down"></i></span></button>
         </div>
     </div>
         
