@@ -32,11 +32,11 @@
         
         <div class="MovieWrapper">
             <!-- Nolan Movies -->
-                <div class="RowWrap">
-                    <!-- Theme: Nolan Movies -->
-                    <div class="Theme">
-                        <p class="ThemeName">Christopher Nolan</p>
-                    </div>
+                <!-- Theme: Nolan Movies -->
+                <div class="Theme" onclick="showMovies()">
+                    <p class="ThemeName">Christopher Nolan</p>
+                </div>
+                <div class="RowWrap" id="Nolan">
                         <!-- Batman Begins -->
                         <div class="MovieListing GreenBG" id="BatmanBegins">
                             <!-- Title & Trailer-->
@@ -551,11 +551,11 @@
                         <div class="InvisMovieListing"></div>
                 </div>
             <!-- Tom Cruise Movies -->
-                <div class="RowWrap">
                 <!-- Theme: Cruise Movies -->
-                    <div class="Theme Buffer">
-                        <p class="ThemeName">Tom Cruise</p>
-                    </div>
+                <div class="Theme Buffer" onclick="showMovies2()">
+                    <p class="ThemeName">Tom Cruise</p>
+                </div>
+                <div class="RowWrap" id="Tom">
                             <!-- Top Gun -->
                             <div class="MovieListing" id="TopGun">
                                 <!-- Title & Trailer-->
@@ -742,8 +742,8 @@
                             </div>
                 </div>
             <!-- Denzel & Fuqua Movies -->
-                <div class="RowWrap">
-                    <!-- Theme: Denzel & Fuqua -->
+                <!-- Theme: Denzel & Fuqua -->
+                <div class="ThemeWrap" onclick="showMovies3()">
                     <div class="Theme Buffer DWAF" style="width: 50%">
                         <p class="ThemeName">Denzel Washington</p>
                     </div>
@@ -753,6 +753,8 @@
                     <div class="Theme Buffer DWAFmob">
                         <p class="ThemeName">Denzel Washington</p>
                     </div>
+                </div>
+                <div class="RowWrap" id="DWash">
                         <!-- Movies -->
                             <!-- Man on Fire -->
                             <div class="MovieListing" id="ManonFire">
@@ -944,11 +946,11 @@
                             </div>
                 </div>
             <!-- Iconic Sci-Fi Comedy Movies -->
-                <div class="RowWrap">
-                    <!-- Theme: Sci-fi Comedy -->
-                    <div class="Theme Buffer">
-                        <p class="ThemeName">Sci-fi Comedy</p>
-                    </div>
+                <!-- Theme: Sci-fi Comedy -->
+                <div class="Theme Buffer" onclick="showMovies4()">
+                    <p class="ThemeName">Sci-fi Comedy</p>
+                </div>
+                <div class="RowWrap" id="SciCom">
                         <!-- 12 Monkeys -->
                         <div class="MovieListing" id="12Monkeys">
                             <!-- Title & Trailer-->
@@ -1135,7 +1137,7 @@
                         </div>
                 </div>
             <!-- Iconic Sci-fi and James Cameron Movies -->
-                <div class="RowWrap">
+                <div class="ThemeWrap" onclick="showMovies5()">
                     <!-- Theme: Iconic Sci-fi and James Cameron -->
                     <div class="Theme Buffer DWAF" style="width: 25%">
                         <p class="ThemeName">Iconic Sci-fi</p>
@@ -1146,6 +1148,8 @@
                     <div class="Theme Buffer DWAFmob">
                         <p class="ThemeName">Iconic Sci-Fi</p>
                     </div>
+                </div>
+                <div class="RowWrap" id="SciFi">
                             <!-- Alien -->
                             <div class="MovieListing" id="Alien">
                             <!-- Title & Trailer-->
@@ -1335,17 +1339,19 @@
                             </div>
                 </div>
             <!-- Old Western and Modern Western Movies -->
-                <div class="RowWrap">
-                    <!-- Theme: Old Western and Modern Western -->
-                    <div class="Theme Buffer DWAF" style="width: 50%">
-                        <p class="ThemeName">Old Western</p>
-                    </div>
-                    <div class="Theme Buffer DWAF" style="width: 50%">
-                        <p class="ThemeName">and Modern Western</p>
-                    </div>
-                    <div class="Theme Buffer DWAFmob">
-                        <p class="ThemeName">Old Western</p>
-                    </div>
+            <div class="ThemeWrap" onclick="showMovies6()">
+                <!-- Theme: Old Western and Modern Western -->
+                <div class="Theme Buffer DWAF" style="width: 50%">
+                    <p class="ThemeName">Old Western</p>
+                </div>
+                <div class="Theme Buffer DWAF" style="width: 50%">
+                    <p class="ThemeName">and Modern Western</p>
+                </div>
+                <div class="Theme Buffer DWAFmob">
+                    <p class="ThemeName">Old Western</p>
+                </div>
+            </div>
+                <div class="RowWrap" id="Western">
                             <!-- Tombstone -->
                             <div class="MovieListing" id="Tombstone">
                             <!-- Title & Trailer-->
@@ -1493,7 +1499,7 @@
                             <div class="MovieTitle">
                             <!-- Trailer -->
                             <a href="https://www.youtube.com/watch?v=qVk8NhLhZMk" target="_blank">
-                                <h1>Ted Post</h1>
+                                <h1>Magnum Force</h1>
                             </a>
                             </div>
                             <!-- Poster -->
@@ -1535,7 +1541,7 @@
                             </div>
                 </div>
             <!-- War Movies -->
-                <div class="RowWrap">
+                <div class="ThemeWrap" onclick="showMovies7()">
                     <!-- Theme: War -->
                     <div class="Theme Buffer DWAF" style="width: 25%">
                         <p class="ThemeName">Pro War</p>
@@ -1552,6 +1558,8 @@
                     <div class="Theme Buffer DWAFmob">
                         <p class="ThemeName">Selected Views of War</p>
                     </div>
+                </div>
+                <div class="RowWrap" id="War">
                             <!-- The Green Berets -->
                             <div class="MovieListing" id="TheGreenBerets">
                             <!-- Title & Trailer-->
@@ -1741,8 +1749,8 @@
                             </div>
                 </div>
             <!-- Innocence and Violence Movies -->
-                <div class="RowWrap">
-                    <!-- Innocence and Violence -->
+                <!-- Innocence and Violence -->
+                    <div class="ThemeWrap" onclick="showMovies8()">
                         <div class="Theme Buffer DWAF" style="width: 50%">
                             <p class="ThemeName">Innocence &amp; Violence</p>
                         </div>
@@ -1752,6 +1760,8 @@
                         <div class="Theme Buffer DWAFmob">
                             <p class="ThemeName">Innocence &amp; Violence</p>
                         </div>
+                    </div>
+                <div class="RowWrap" id="IV">
                                 <!-- Road to Perdition -->
                                 <div class="MovieListing" id="RoadtoPerdition">
                                 <!-- Title & Trailer-->
@@ -1941,10 +1951,10 @@
                                 </div>
                 </div>
             <!-- Daniel Craig's James Bond Movies -->
-                <div class="RowWrap">
-                    <div class="Theme Buffer">
-                        <p class="ThemeName">Daniel Craig's James Bond</p>
-                    </div>
+                <div class="Theme Buffer" onclick="showMovies9()">
+                    <p class="ThemeName">Daniel Craig's James Bond</p>
+                </div>
+                <div class="RowWrap" id="JB">
                             <!-- Casino Royale -->
                             <div class="MovieListing" id="CasinoRoyale">
                             <!-- Title & Trailer-->
@@ -2131,8 +2141,8 @@
                             </div>
                 </div>
             <!-- Sam Raimi Spider-Man Movies -->
-                <div class="RowWrap">
-                    <!-- Theme: Sam Raimi's Spider-Man -->
+                <!-- Theme: Sam Raimi's Spider-Man -->
+                    <div class="ThemeWrap" onclick="showMovies10()">
                         <div class="Theme Buffer DWAF" style="width: 75%;">
                             <p class="ThemeName">Sam Raimi Spider-Man</p>
                         </div>
@@ -2140,6 +2150,8 @@
                         <div class="Theme Buffer DWAFmob">
                             <p class="ThemeName">Sam Raimi Spider-Man</p>
                         </div>
+                    </div>
+                <div class="RowWrap" id="Spider">
                                 <!-- Spider-Man -->
                                 <div class="MovieListing" id="Spiderman">
                                 <!-- Title & Trailer-->
@@ -2282,11 +2294,13 @@
                                 <div class="InvisMovieListing"></div>
                 </div>
             <!-- Comedy-Drama Movies -->
-                <div class="RowWrap">
-                    <!-- Theme: Sentimental -->
+                <!-- Theme: Sentimental -->
+                    <div class="ThemeWrap" onclick="showMovies11()">
                         <div class="Theme Buffer">
                             <p class="ThemeName">Comedy-Drama / Heartwarming</p>
                         </div>
+                    </div>
+                <div class="RowWrap" id="HeartWarm">
                             <!-- Second Hand Lions -->
                             <div class="MovieListing" id="SecondHandLions">
                             <!-- Title & Trailer-->
@@ -2706,11 +2720,13 @@
                             <div class="InvisMovieListing"></div>
                 </div>
             <!-- Love and Time Movies -->
-                <div class="RowWrap">
-                    <!-- Theme: Love and Time -->
-                        <div class="Theme Buffer DWAF">
-                            <p class="ThemeName">Love and Time</p>
-                        </div>
+            <!-- Theme: Love and Time -->
+                <div class="ThemeWrap" onclick="showMovies12()">
+                    <div class="Theme Buffer DWAF">
+                        <p class="ThemeName">Love and Time</p>
+                    </div>
+                </div>
+                <div class="RowWrap" id="Love&Time">
                             <!-- About Time -->
                             <div class="MovieListing" id="AboutTime">
                                 <!-- Title & Trailer-->
@@ -2947,11 +2963,13 @@
                             <div class="InvisMovieListing"></div>
                 </div>
             <!-- Unsorted Movies -->
-                <div class="RowWrap">
-                    <!-- Theme: Currently Unsorted -->
+                <!-- Theme: Currently Unsorted -->
+                    <div class="ThemeWrap" onclick="showMovies13()">
                         <div class="Theme Buffer DWAF">
                             <p class="ThemeName">Currently Unsorted</p>
                         </div>
+                    </div>
+                <div class="RowWrap Hide" id="Unsort">
                             <!-- Forrest Gump -->
                             <div class="MovieListing" id="ForrestGrump">
                             <!-- Title & Trailer-->
@@ -4772,7 +4790,10 @@
                     </div>
                 </div>
                 </div>
+
                 <button onclick="topFunction()" id="BackToTop" title="To Top"><p class="DWAF">Back to top</p><span class="DWAFmob"><i class="fa-solid fa-arrow-up"></i></span></button>
+
+                <button onclick="botFunction()" id="GoToBot" title="To Bottom"><p class="DWAF">Go to Bottom</p><span class="DWAFmob"><i class="fa-solid fa-arrow-down"></i></span></button>
         </div>
     </div>
         

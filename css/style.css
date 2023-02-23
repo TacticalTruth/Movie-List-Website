@@ -31,6 +31,22 @@ body{
     text-decoration: underline;
 }
 
+#GoToBot{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: transparent;
+    font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    z-index: 9;
+    text-decoration: underline;
+}
+
 i{
     padding-left: 3px;
     color: white;
@@ -113,6 +129,7 @@ nav{
     pointer-events: none;
 }
 
+
 /* Watch List Styling */
 .MovieWrapper{
     margin-left: 20px;
@@ -121,6 +138,16 @@ nav{
 }
 
 .RowWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Hide{
+    display: none;
+}
+
+.ThemeWrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -208,8 +235,8 @@ nav{
     display: block;
     animation: BlurBG;
     animation-duration: 2.75s;
-    top: -200%;
-    left: -500%;
+    top: -1500%;
+    left: -1000%;
     height: 10000px;
     width: 10000px;
 }
@@ -260,6 +287,7 @@ nav{
 }
 
 .Theme{
+    cursor: pointer;
     width: 100%;
     border-bottom: solid rgba(255, 255, 255, 0.199) 1px;
     margin-bottom: 25px;
@@ -389,6 +417,7 @@ footer p{
    
     .DWAFmob{
         display: block;
+        margin-right: 0px;
         width: 100%;
     }
 
@@ -398,6 +427,16 @@ footer p{
 @media (max-width: 698px) {
     .container{
         width: fit-content;
+    }
+
+    .Theme{
+        cursor: none;
+        pointer-events: none;
+        display: none;
+    }
+
+    .Hide{
+        display: flex;
     }
 
     .MovieWrapper{
@@ -422,20 +461,6 @@ footer p{
     }
 
     .MoviePoster:hover ~ #glass{
-        display: none;
-    }
-
-    .Theme{
-        display: none;
-    
-    }
-    
-    .ThemeName{
-        display: none;
-
-    }
-    
-    .Buffer{
         display: none;
     }
 }
