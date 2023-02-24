@@ -184,55 +184,24 @@ nav{
 
 @keyframes Shadow{
     0%{
-        box-shadow: 0 0 10px black;
+        box-shadow: 0 0 10px 200vh rgba(0, 0, 0, 0);
     }
     100%{
-        box-shadow: 0 0 30px black;
+        box-shadow: 0 0 10px 200vh rgba(0, 0, 0, 0.80);
     }
 }
 
 .MoviePoster img:active{
     box-sizing: content-box;
-    transition-delay: 0.1s;
+    transition-delay: 0.2s;
     position: absolute;
     transform: scale(3.25);
     opacity: 1;
+    border: solid black 1px;
     z-index: 10;
     animation: Shadow;
-    /* animation-delay: 1s;
-    animation-duration: 1s; */
+    animation-duration: 1s;
     animation-fill-mode: forwards;
-}
-
-.Glass{
-    display: none;
-    position: absolute;
-    height: 1px;
-    width: 1px;
-    background-color: rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(7px);
-    z-index: 9;
-    pointer-events: none;
-}
-
-.MoviePoster:active ~ #glass{
-    display: block;
-    animation: BlurBG;
-    animation-duration: 0.5s;
-    top: -1500%;
-    left: -1000%;
-    height: 10000px;
-    width: 10000px;
-}
-
-@keyframes BlurBG{
-    0%{
-        opacity: 0;
-    }
-
-    100%{
-        opacity: 1;
-    }
 }
 
 .MovieDetails{
