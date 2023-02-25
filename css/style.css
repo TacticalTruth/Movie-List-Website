@@ -411,6 +411,8 @@ footer p{
         transform: scale(1);
         opacity: 1;
         z-index: 1;
+        animation: none;
+        border: none;
     }
 
     .MoviePoster:hover ~ #glass{
