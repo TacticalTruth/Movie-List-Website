@@ -1,0 +1,242 @@
+/* Basic Styling */
+html{
+    font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
+    background-color: #222222;
+    color: white;
+    background-image: url("../img/background/background10p.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+a{
+    color: white;
+}
+
+.Separator{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px
+}
+
+/* Header Styling */
+
+header{
+    text-align: center;
+    min-height: 275px;
+}
+
+.Page-Title{
+    padding-top: 20px;
+}
+
+.MovieNight{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.PageTitle{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.SubTitle{
+    font-size: 17px;
+    font-style: italic;
+    padding: 10px 0px;
+}
+
+.ThisPage{
+    text-decoration: none;
+
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 ;
+}
+/* Header Styling End */
+
+.WIP{
+    position: fixed;
+    background-image: url(../img/WIP.png);
+    background-size: 1250px 164px;
+    width: 1250px;
+    height: 164px;
+    z-index: 10000;
+    top: 452px;
+    opacity: .05;
+    rotate: 22.5deg;
+    scale: 1.5;
+    pointer-events: none;
+}
+
+/* Crew Styling */
+.TheCrewWrapper{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.TheCrewWrapper p{
+    font-size: 14px;
+}
+
+.CrewMember{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 33%;
+    overflow: hidden;
+}
+
+.Name{
+    text-align: center;
+    max-width: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.CrewAvatar{
+    margin: 0 auto;
+    height: 250px;
+    width: 150px;
+    float: left;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.30);
+}
+
+.CrewDetails{
+    margin-left: 170px;
+    vertical-align: baseline;
+}
+
+.DetailTitle{
+    margin-bottom: 5px;
+}
+
+.DetailContent{
+    margin-bottom: 10px;
+}
+
+.DTitle{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.DContent{
+    font-size: 10px;
+}
+
+/* Crew Avatar Div Style */
+
+.Dolt{
+    background-image: url(../img/avatars/Dolt.png);
+    background-position: center;
+    height: 250px;
+    width: 150px;
+}
+
+.Demdy{
+    background-image: url(../img/avatars/Demdy.png);
+    background-position: center;
+    height: 250px;
+    width: 150px;
+}
+
+.Green{
+    background-image: url(../img/avatars/Green.jpg);
+    background-position: -46px -54px;
+    background-size: 282px 306px;
+    height: 250px;
+    width: 150px;
+}
+
+.Kamen{
+    background-image: url(../img/avatars/KamenAlt.png);
+    background-position: center;
+    background-size: 350px 292px;
+    height: 250px;
+    width: 150px;
+}
+
+.TalentLess{
+    background-image: url(../img/avatars/TalentLss.png);
+    background-position: center;
+    background-size: 150px 250px;
+    height: 250px;
+    width: 150px;
+}
+
+.Truth{
+    background-image: url(../img/avatars/Truth.jpg);
+    background-position: 496px 334px;
+    background-size: 713px 680px;
+    height: 250px;
+    width: 150px;
+}
+/* Crew Styling End */
+
+/* Footer Styling */
+.Footercontainer{
+    background-color: #131313;
+    align-content: center;
+    width: 100vw;
+    min-height: 125px;
+}
+
+footer{
+    text-align: center;
+    height: 125px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer p{
+    margin-bottom: 5px;
+}
+/* Footer Styling End */
+
+/* width 1000px */
+@media (max-width: 1000px){
+    nav{
+        justify-content: space-around;
+    }
+    .CrewMember{
+        width: 50%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 698px) {
+    .container{
+        width: fit-content;
+    }
+
+    .TheCrewWrapper{
+        align-content: center;
+    }
+
+    .CrewMember{
+        
+        width: 100%;
+    }
+    
+}
