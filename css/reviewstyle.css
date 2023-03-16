@@ -213,4 +213,14 @@ footer p{
     .ReviewDetails{
         margin-top: 0px;
     }
+
+    .MoviePoster img:hover{
+        transition-delay: 0.5s;
+        position: relative;
+        transform: scale(1);
+        opacity: 1;
+        z-index: 1;
+        animation: none;
+        border: none;
+    }
 }
