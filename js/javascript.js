@@ -13,8 +13,8 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-function showMovies() {
-    var x = document.getElementById("Unsort")
+function showMovies(id) {
+    var x = document.getElementById(id)
     if (x.classList === "RowWrap") {
         x.classList.add("Hide");
     }
