@@ -1,6 +1,5 @@
 /* Basic Styling */
 html{
-    zoom: 110%;
     font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
     background-color: #222222;
     color: white;
@@ -14,8 +13,8 @@ body{
     overflow-x: hidden;
 }
 
-.HIDE{
-    display: none;
+.Hide{
+    display: none!important;
 }
 
 .container{
@@ -31,6 +30,34 @@ a{
     margin-top: 10px;
     background-color: white;
     border-radius: 10px
+}
+
+/* Back to Top */
+
+#BackToTop{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: transparent;
+    font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    z-index: 9;
+    text-decoration: underline;
+}
+
+i{
+    padding-left: 3px;
+    color: white;
+    text-decoration: underline;
+}
+
+.DWAFmob{
+    display: none;
 }
 
 /* Header Styling */
@@ -83,7 +110,14 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
     padding-bottom: 100px;
+}
+
+.RowWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .ReviewListing{
@@ -144,7 +178,37 @@ nav{
     font-weight: bold;
 }
 
+.InvisMovieListing{
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
 /* Review List Ending */
+
+/* Theme Styling */
+.ThemeWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Theme{
+    cursor: pointer;
+    border-bottom: solid rgba(255, 255, 255, 0.199) 1px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.ThemeName{
+    margin-left: 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+/* Theme Styling End */
+
 
 /* Footer Styling */
 .Footercontainer{
@@ -175,6 +239,14 @@ footer p{
 
 /* Width 870px */
 @media (max-width: 870px){
+    .DWAF{
+        display: none;
+    }
+
+    .DWAFmob{
+        display: block;
+    }
+
     .ReviewPoster{
         margin-right: 10px;
     }
@@ -212,5 +284,15 @@ footer p{
     
     .ReviewDetails{
         margin-top: 0px;
+    }
+
+    .MoviePoster img:hover{
+        transition-delay: 0.5s;
+        position: relative;
+        transform: scale(1);
+        opacity: 1;
+        z-index: 1;
+        animation: none;
+        border: none;
     }
 }

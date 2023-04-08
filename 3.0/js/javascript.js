@@ -14,7 +14,7 @@ function topFunction() {
 }
 
 function showMovies() {
-    var x = document.getElementById("Unsort")
+    var x = document.getElementById('Unsort')
     if (x.classList === "RowWrap") {
         x.classList.add("Hide");
     }
