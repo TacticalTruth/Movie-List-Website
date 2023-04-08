@@ -1,0 +1,299 @@
+/* Basic Styling */
+html{
+    zoom: 110%;
+    font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
+    background-color: #222222;
+    color: white;
+    background-image: url("../img/background/background10p.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.Hide{
+    display: none!important;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+a{
+    color: white;
+}
+
+.Separator{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px
+}
+
+/* Back to Top */
+
+#BackToTop{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: transparent;
+    font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    z-index: 9;
+    text-decoration: underline;
+}
+
+i{
+    padding-left: 3px;
+    color: white;
+    text-decoration: underline;
+}
+
+.DWAFmob{
+    display: none;
+}
+
+/* Header Styling */
+
+header{
+    text-align: center;
+    min-height: 275px;
+}
+
+.Page-Title{
+    padding-top: 20px;
+}
+
+.MovieNight{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.PageTitle{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.SubTitle{
+    font-size: 17px;
+    font-style: italic;
+    padding: 10px 0px;
+}
+
+.ThisPage{
+    text-decoration: none;
+
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 ;
+}
+/* Header Styling End */
+
+/* Review List Styling */
+.ReviewWrapper{
+    margin-left: 20px;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 100px;
+}
+
+.RowWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ReviewListing{
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.ReviewTitle{
+    text-align: center;
+    max-width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.ReviewPoster{
+    float: left;
+}
+
+.ReviewPoster img{
+    height: 250px;
+    width: 150px;
+    transition: transform .25s;
+    box-shadow: 0px 0px 10px black;
+}
+
+.ReviewPoster img:active{
+    transition-delay: 0.5s;
+    position: relative;
+    transform: scale(3);
+    opacity: 1;
+    z-index: 10;
+}
+
+.ReviewDetails{
+    min-width: 250px;
+    padding-left: 160px;
+}
+
+.Reviewer{
+    padding-bottom: 7px;
+}
+
+.ReviewName{
+    padding-bottom: 3px;
+}
+
+.ReviewDetails p{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.ReviewDetails span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.InvisMovieListing{
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+/* Review List Ending */
+
+/* Theme Styling */
+.ThemeWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Theme{
+    cursor: pointer;
+    border-bottom: solid rgba(255, 255, 255, 0.199) 1px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.ThemeName{
+    margin-left: 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+/* Theme Styling End */
+
+
+/* Footer Styling */
+.Footercontainer{
+    background-color: #131313;
+    align-content: center;
+    min-height: 125px;
+}
+
+footer{
+    text-align: center;
+    height: 125px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer p{
+    margin-bottom: 5px;
+}
+/* Footer Styling End */
+
+/* width 1000px */
+@media (max-width: 1000px){
+    nav{
+        justify-content: space-around;
+    }
+}
+
+/* Width 870px */
+@media (max-width: 870px){
+    .DWAF{
+        display: none;
+    }
+
+    .DWAFmob{
+        display: block;
+    }
+
+    .ReviewPoster{
+        margin-right: 10px;
+    }
+
+    .ReviewListing{
+        background-color: rgba(0, 0, 0, 0.103);
+    }
+
+    .ReviewDetails{
+        min-width: 158px;
+        padding-left: 0px;
+        margin-top: -10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 698px) {
+    nav{
+        justify-content: space-around;
+    }
+    
+    .container{
+        width: fit-content;
+    }
+
+    .ReviewListing{
+        background-color: rgba(0, 0, 0, 0.0);
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .ReviewDetails{
+        margin-top: 0px;
+    }
+
+    .MoviePoster img:hover{
+        transition-delay: 0.5s;
+        position: relative;
+        transform: scale(1);
+        opacity: 1;
+        z-index: 1;
+        animation: none;
+        border: none;
+    }
+}
