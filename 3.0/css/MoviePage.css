@@ -226,7 +226,7 @@ span{
 @media (max-width: 750px){
     .MoviePoster{
         width: 100%;
-        margin-left: 150px;
+        margin-left: 90px;
     }
 
     .MoviePoster img{
