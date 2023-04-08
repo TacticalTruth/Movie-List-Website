@@ -198,13 +198,13 @@ span{
 @media (max-width: 900px){
     .MoviePoster{
         width: 100%;
-        margin-left: 300px;
+        margin-left: 100px;
     }
 
     .MovieDetails{
         width: 100%;
         margin-top: 30px;
-        margin-left: 300px;
+        margin-left: 100px;
     }
 
     .MovieTrailer{
