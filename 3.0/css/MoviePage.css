@@ -229,10 +229,15 @@ span{
         margin-left: 150px;
     }
 
+    .MoviePoster img{
+        height: 708px;
+        width: 425px;
+    }
+
     .MovieDetails{
         width: 100%;
         margin-top: 30px;
-        margin-left: 150px;
+        margin-left: 210px;
     }
 
     .MovieTrailer{
@@ -246,6 +251,8 @@ span{
         margin-left: -40px;
     }
 }
+
+
 
 @media (max-width: 400px){
     .MoviePoster{
