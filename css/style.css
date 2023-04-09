@@ -167,6 +167,7 @@ nav{
 }
 
 .Watched{
+    pointer-events: none;
     position: absolute;
     opacity: .5;
     pointer-events: none;
@@ -176,16 +177,12 @@ nav{
     height: 583px;
     width: 350px;
     float: left;
-    transition: transform .25s;
     box-shadow: 0px 0px 10px black;
     z-index: 1;
 }
 
 .MoviePoster img:hover{
-    box-sizing: content-box;
-    transition-delay: 0.2s;
-    position: absolute;
-    opacity: 1;
+    position: relative;
     z-index: 10;
 }
 
