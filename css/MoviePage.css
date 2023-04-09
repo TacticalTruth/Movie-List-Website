@@ -22,6 +22,10 @@ a{
     color: white;
 }
 
+.Show400{
+    display: none;
+}
+
 .Separator{
     margin-top: 10px;
     background-color: white;
@@ -165,6 +169,11 @@ span{
 /* Media Queries */
 
 @media (max-width: 1400px){
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
     .MoviePoster img{
         height: 625px;
         width: 375px;
@@ -178,6 +187,11 @@ span{
 }
 
 @media (max-width: 1080px){
+    .container{
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
     .MoviePoster{
         width: 25%
     }
@@ -192,41 +206,20 @@ span{
         width: 25%;
         font-size: 18px;
         padding: 10px;
+        margin-left: 30px;
     }
 }
 
 @media (max-width: 900px){
+
+    .container{
+        max-width: 900px;
+    }
+
     .MoviePoster{
+        display: flex;
+        justify-content: center;
         width: 100%;
-        margin-left: 300px;
-    }
-
-    .MovieDetails{
-        width: 100%;
-        margin-top: 30px;
-        margin-left: 300px;
-    }
-
-    .MovieTrailer{
-        width: 100%;
-        margin-top: 30px;
-        margin-left: 70px;
-    }
-
-    hr{
-        margin-top: 25px;
-        margin-left: -70px;
-    }
-
-    .Reviews{
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 750px){
-    .MoviePoster{
-        width: 100%;
-        margin-left: 150px;
     }
 
     .MoviePoster img{
@@ -237,27 +230,107 @@ span{
     .MovieDetails{
         width: 100%;
         margin-top: 30px;
-        margin-left: 210px;
+        margin-left: 290px;
+    }
+
+    .Detail{
+        width: 300px;
     }
 
     .MovieTrailer{
         width: 100%;
         margin-top: 30px;
-        margin-left: 70px;
+        margin-left: -28px;
+    }
+
+    hr{
+        margin-top: 25px;
+        margin-left: -70px;
     }
 
     .Reviews{
-        max-width: 100%;
-        margin-left: -40px;
+        max-width: 90%;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 750px){
+
+    .container{
+        max-width: 750px;
+        margin-left: 20px;
+    }
+
+    .MoviePoster{
+        width: 100%;
+        margin-left: 24px;
+    }
+
+    .MoviePoster img{
+        height: 708px;
+        width: 425px;
+    }
+
+    .MovieDetails{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+
+    .MovieTrailer{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .Reviews{
+        width: 550px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .MovieTrailerEmbed{
+        display: none;
+    }
+
+    .MovieDetails{
+        margin-left: 20px;
+    }
+
+    .Mob{
+        display: none;
+    }
+
+    .Show400{
+        display: block;
+        margin-left: 36px;
     }
 }
 
 
 
 @media (max-width: 400px){
+
+    .container{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .MovieTitle{
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
     .MoviePoster{
         width: 100%;
-        margin-left: 50px;
+        margin-left: 30px;
+    }
+
+    .MoviePoster img{
+        width: 300px;
+        height: 500px;
     }
 
     .MovieDetails{
@@ -266,15 +339,21 @@ span{
         margin-left: 50px;
     }
 
-    .MovieTrailer{
-        width: 100%;
-        margin-top: 30px;
-        margin-left: 0px;
+    .MovieTrailerEmbed{
+        display: none;
+    }
+
+    .Show400{
+        margin: 0;
     }
 
     .Reviews{
-        max-width: 100%;
-        margin-left: 30px;
+        margin-top: 30px;
+        width: 300px
+    }
+
+    hr{
+        margin-left: -47px;
     }
 
     nav{
@@ -299,14 +378,14 @@ span{
     }
 
     .MovieNight{
-        font-size: 21px;
+        font-size: 18px;
     }
 
     .PageTitle{
-        font-size: 43px;
+        font-size: 36px;
     }
 
     .SubTitle{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
