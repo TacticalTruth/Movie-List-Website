@@ -200,6 +200,15 @@ nav{
     height: 250px;
     width: 150px;
 }
+
+.Konrad{
+    background-image: url(../img/avatars/Konrad.jpg);
+    background-position-x: 282px;
+    background-position-y: -64px;
+    background-size: 502px 508px;
+    height: 250px;
+    width: 150px; 
+}
 /* Crew Styling End */
 
 /* Footer Styling */
