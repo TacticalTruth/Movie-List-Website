@@ -184,6 +184,15 @@ nav{
     width: 150px;
 }
 
+.FrogLike{
+    background-image: url(../img/avatars/FrogLike.jpg);
+    background-position-x: -82px;
+    background-position-y: -69px;
+    background-size: 290px 424px;
+    height: 250px;
+    width: 150px;
+}
+
 .Truth{
     background-image: url(../img/avatars/Truth.jpg);
     background-position: 496px 334px;
