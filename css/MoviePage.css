@@ -22,6 +22,10 @@ a{
     color: white;
 }
 
+b{
+    font-weight: bold;
+}
+
 .Show400{
     display: none;
 }
