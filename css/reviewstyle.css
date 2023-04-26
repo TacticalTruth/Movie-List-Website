@@ -181,6 +181,26 @@ nav{
     padding: 10px;
 
 }
+
+.Tiers{
+    padding-bottom: 3px;
+}
+
+.TierDetails{
+    min-width: 250px;
+}
+
+.TierDetails p{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 3px 0 3px 0;
+}
+
+.TierDetails span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
 /* Review List Ending */
 
 /* Theme Styling */
