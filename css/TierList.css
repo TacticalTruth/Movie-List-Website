@@ -26,6 +26,10 @@ b{
     font-weight: bold;
 }
 
+.Hide{
+    display: none;
+}
+
 .Show400{
     display: none;
 }
